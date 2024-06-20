@@ -1,0 +1,9 @@
+@mixin btn($color: green, $background: yellow, $padding: 1rem) {
+  color: $color;
+  background: $background;
+  padding: $padding;
+}
+
+@mixin border($border: 2px, $style: solid, $color: red) {
+  border: $border $style $color;
+}
