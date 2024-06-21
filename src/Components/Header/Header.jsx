@@ -2,7 +2,6 @@ export default function Header() {
   return (
     <div className="header__container">
       <div className="header__wrap">
-        {/* ----------------------------------------------------------------- */}
         <div className="header__content">
           <div className="header__logo">
             <img
@@ -22,6 +21,11 @@ export default function Header() {
           <div className="sandwich__menu__line"></div>
           <div className="sandwich__menu__line sandwich__menu__line_second"></div>
           <div className="sandwich__menu__line"></div>
+        </div>
+
+        <div className="box__img">
+          <img src="./img/icon-arrow.svg" alt="#" />
+          <img src="img/icon-enter.svg" alt="#" />
         </div>
       </div>
       <div className="header__bg"></div>
