@@ -1,0 +1,24 @@
+.sandwich__menu {
+  width: 24px;
+  background-color: white;
+}
+
+.sandwich__menu__line {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.sandwich__menu__line_second {
+  margin: 6px 0 6px auto;
+  width: 18px;
+}
+
+.header__bg {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  margin-top: -15px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: white;
+}
