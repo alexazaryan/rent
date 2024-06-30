@@ -1,0 +1,31 @@
+.header__second__search {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/public/img/points.png) no-repeat;
+}
+//
+
+.header__input {
+  width: 100%;
+  max-width: 800px; /* максимальная ширина инпута */
+  min-width: 200px; /* минимальная ширина инпута */
+  padding: 15px;
+  border-radius: 33px;
+  background: white;
+}
+
+.btn {
+  padding: 18px 55px;
+  margin: 8px 0 55px 0;
+  border: none;
+  border-radius: 33px;
+  font-size: 1.2rem;
+  color: white;
+  background: #e63a28;
+}
+
+.text__red {
+  color: #e63a28;
+}

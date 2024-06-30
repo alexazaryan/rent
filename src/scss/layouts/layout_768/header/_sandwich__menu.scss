@@ -1,3 +1,13 @@
-.header__bg {
+.header__bg1 {
+  display: none;
+}
+
+.header__bg2 {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  margin-top: -75px;
+  height: 180px;
   background-color: #eef3fa;
+  border-radius: 0 0 100% 100%; /* радиус скругления */
 }

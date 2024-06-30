@@ -1,6 +1,6 @@
 .sandwich__menu {
   width: 24px;
-  background-color: white;
+  margin-left: auto;
 }
 
 .sandwich__menu__line {
@@ -13,12 +13,22 @@
   width: 18px;
 }
 
-.header__bg {
+.header__bg1 {
   z-index: 1;
   position: absolute;
   width: 100%;
-  margin-top: -15px;
-  height: 30px;
+  margin-top: -30px;
+  height: 60px;
   border-radius: 100%;
-  background-color: white;
+  background-color: $white;
+}
+
+.header__bg2 {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  margin-top: -45px;
+  height: 100px;
+  background-color: #eef3fa;
+  border-radius: 0 0 100% 100%; /* радиус скругления */
 }

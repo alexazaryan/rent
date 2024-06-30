@@ -1,8 +1,11 @@
 .header__wrap {
-  max-width: 1200px;
+  max-width: 1650px;
   padding: 1rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  //
+  z-index: 3;
+  position: relative;
 }

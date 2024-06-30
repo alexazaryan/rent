@@ -1,0 +1,17 @@
+.header__nav {
+  display: flex;
+}
+
+.header__nav__li {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+}
+
+.header__nav__li_btn {
+  background-color: blue;
+  border-radius: 25px;
+  margin: 0 50px;
+  font-size: 1rem;
+  color: white;
+}

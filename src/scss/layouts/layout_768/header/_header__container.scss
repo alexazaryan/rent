@@ -1,3 +1,5 @@
 .header__container {
-  background-color: #eef3fa;
+  background-color: $bg-color;
+  z-index: 3;
+  position: relative;
 }
