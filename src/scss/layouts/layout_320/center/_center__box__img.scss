@@ -15,11 +15,17 @@
 
 .center__box__li {
   position: relative;
-
   margin-bottom: 100px;
   padding: 10px;
   box-sizing: border-box;
   flex: 1 1 100%; /* По умолчанию блок занимает всю ширину */
+}
+
+.wrap__group__png {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -15px;
+  z-index: -1;
 }
 
 .center__arrow1__img {

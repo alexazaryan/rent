@@ -20,6 +20,11 @@ export default function Center() {
       <div className="center__box__img">
         <ul className="center__box__img__list">
           <li className="center__box__li">
+            {/*  */}
+            <div className="wrap__group__png">
+              <img src="./img/group1.png" alt="" />
+            </div>
+            {/*  */}
             <h3 className="center__box__h3">Find Your Perfect Item</h3>
             <p>
               Eiusmod tempora incididunt dolore magna aliqua sed enim lorem
@@ -32,7 +37,7 @@ export default function Center() {
                 alt="arrow"
               />
             </div>
-            {/*  */}
+
             <div className="center__arrow1__top__img">
               <img
                 className="center__arrow1__top__svg"
@@ -40,10 +45,14 @@ export default function Center() {
                 alt="arrow"
               />
             </div>
-            {/*  */}
           </li>
 
           <li className="center__box__li">
+            {/*  */}
+            <div className="wrap__group__png">
+              <img src="./img/group2.png" alt="" />
+            </div>
+            {/*  */}
             <h3 className="center__box__h3">Book Item With Seller</h3>
             <p>
               Eiusmod tempora incididunt dolore magna aliqua sed enim lorem
@@ -68,6 +77,11 @@ export default function Center() {
           </li>
           {/* ================================================================================ */}
           <li className="center__box__li">
+            {/*  */}
+            <div className="wrap__group__png">
+              <img src="./img/group3.png" alt="" />
+            </div>
+            {/*  */}
             <h3 className="center__box__h3">Play And Return Item</h3>
             <p>
               Eiusmod tempora incididunt dolore magna aliqua sed enim lorem
