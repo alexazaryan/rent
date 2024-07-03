@@ -28,7 +28,7 @@ export default function Center() {
             <div className="center__arrow1__img">
               <img
                 className="center__arrow1__svg"
-                src="./public/img/arrowBottom.svg"
+                src="./img/arrowBottom.svg"
                 alt="arrow"
               />
             </div>
@@ -36,7 +36,7 @@ export default function Center() {
             <div className="center__arrow1__top__img">
               <img
                 className="center__arrow1__top__svg"
-                src="./public/img/arrowTop.svg"
+                src="./img/arrowTop.svg"
                 alt="arrow"
               />
             </div>
@@ -52,7 +52,7 @@ export default function Center() {
             <div className="center__arrow2__img">
               <img
                 className="center__arrow2__svg"
-                src="./public/img/arrowBottom.svg"
+                src="./img/arrowBottom.svg"
                 alt="arrow"
               />
             </div>
@@ -60,7 +60,7 @@ export default function Center() {
             <div className="center__arrow5__top__img">
               <img
                 className="center__arrow5__top__svg"
-                src="./public/img/arrowTop.svg"
+                src="./img/arrowTop.svg"
                 alt="arrow"
               />
             </div>
