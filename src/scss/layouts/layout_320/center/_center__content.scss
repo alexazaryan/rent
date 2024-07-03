@@ -1,0 +1,36 @@
+.center__content {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.center__content__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  list-style-type: none; /* Убираем стандартную маркировку */
+}
+
+.center__title {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.center__content__h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 40px auto 20px auto;
+}
+
+.center__content__text {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.center__title__line {
+  width: 33px;
+  height: 2px;
+  margin: 5px;
+  background-color: #e63a28;
+}

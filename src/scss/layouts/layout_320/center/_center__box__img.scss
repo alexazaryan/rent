@@ -1,0 +1,43 @@
+.center__box__img__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.center__box__h3 {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.center__box__li {
+  position: relative;
+
+  margin-bottom: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  flex: 1 1 100%; /* По умолчанию блок занимает всю ширину */
+}
+
+.center__arrow1__img {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.center__arrow2__img {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.center__arrow1__top__img {
+  display: none;
+}
+
+.center__arrow5__top__img {
+  display: none;
+}
