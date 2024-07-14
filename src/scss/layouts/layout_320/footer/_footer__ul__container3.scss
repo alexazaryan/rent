@@ -1,0 +1,26 @@
+.footer__ul__container3 {
+}
+
+.footer__group__icon {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer__box__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%; /* Делает фон кругом */
+}
+
+.footer__box__icon_fb {
+  background-color: red;
+}
+
+.footer__text__title_li3 {
+  margin: 0 20px;
+}
