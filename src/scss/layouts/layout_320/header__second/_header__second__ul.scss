@@ -8,12 +8,76 @@
 .header__second__img {
   width: 40px;
   height: 40px;
-  margin: 3px;
+  margin: 1rem;
 }
+
+// ============================= js
 
 .header__img {
   width: 100%;
   max-width: 100%;
+}
+
+.header__img__left,
+.header__img__right {
+  opacity: 0;
+}
+
+.headerImgLeft {
+  opacity: 0;
+  animation: showLeft 1s forwards;
+}
+
+.headerImgRight {
+  z-index: 0;
+  opacity: 0;
+  animation: showRight 1s forwards;
+}
+
+@keyframes showLeft {
+  0% {
+    transform: translateX(40px); /* Начальное положение сдвинуто влево */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Конечное положение */
+  }
+}
+
+@keyframes showRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px); /* Начальное положение сдвинуто влево */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Конечное положение */
+  }
+}
+
+.classCloysLeft {
+  animation: cloysLeft 2s ease forwards;
+}
+
+@keyframes cloysLeft {
+  0% {
+    background-color: red;
+  }
+  100% {
+    left: -500px;
+  }
+}
+
+.header__img__click {
+  position: relative;
+  transition: transform 0.5s;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.header__img__click:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
 }
 
 .wrap__box__img {
@@ -25,7 +89,7 @@
 .header__second__left {
   font-weight: 700;
   font-size: 1rem;
-  flex: 2;
+  // flex: 2;
   order: 1;
 }
 .header__second__right {
@@ -41,6 +105,7 @@
 }
 
 .message {
+  transition: 1s ease;
   border-radius: 33px;
   padding: 10px 25px;
   position: absolute;
@@ -50,8 +115,8 @@
   color: white;
 }
 
-// треугольник
 .triangle {
+  transition: 1s ease;
   position: absolute;
   margin-top: 46px;
   margin-left: -25px;

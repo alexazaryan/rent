@@ -1,0 +1,62 @@
+.box__wrap__img {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+}
+
+.p__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.p__title__p {
+  font-size: 1.4rem;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.popular__ul__wrap__img {
+  list-style: none;
+  display: inline-flex;
+  overflow-x: auto; /* Горизонтальная прокрутка */
+  overflow-y: hidden; /* Скрытие вертикальной прокрутки */
+  -webkit-overflow-scrolling: touch; /* Плавная прокрутка на мобильных устройствах */
+  margin: 0;
+  padding: 0 10px;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.popular__ul__wrap__img::-webkit-scrollbar {
+  display: none; /* Отключаем скроллбар для Webkit-браузеров (Chrome, Safari) */
+}
+
+.p__li__box__img {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #ffffff;
+  z-index: 0;
+  margin: 10px;
+  scroll-snap-align: start; /* Привязка начала блока при прокрутке */
+  cursor: pointer;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* начальная тень */
+  transition: box-shadow 0.3s ease; /* плавный переход */
+}
+
+.p__li__box__img:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* более сильная тень при наведении */
+}
+
+.bloc__title__describe {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}

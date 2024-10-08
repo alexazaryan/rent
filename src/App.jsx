@@ -1,3 +1,5 @@
+// import { useState } from "react";
+
 import Header from "./Components/Header/Header";
 import Center from "./Components/Center/Center";
 import Footer from "./Components/Footer/Footer";
@@ -11,6 +13,7 @@ function App() {
       <Header />
       <Center />
       <PopularCategories />
+
       <Footer />
     </div>
   );

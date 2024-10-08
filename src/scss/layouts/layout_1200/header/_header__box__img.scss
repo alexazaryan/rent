@@ -4,6 +4,12 @@
   height: 17px;
   overflow: hidden;
   margin: 7px;
+  transform: rotate(180deg); /* Поворот на 90 градусов */
+  transition: 1s;
+}
+
+.header__nav__li:hover > .header__box__img_pointer {
+  transform: rotateY(180deg); /* Поворот на 90 градусов вокруг оси Y */
 }
 
 .header__box__img_flag {

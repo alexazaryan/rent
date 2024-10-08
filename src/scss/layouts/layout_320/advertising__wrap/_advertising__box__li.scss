@@ -1,0 +1,60 @@
+.advertising__wrap__img {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  margin: 20px;
+
+  // position: relative;
+  // transform: translateX(150px);
+  opacity: 0;
+  // animation: moveUp 3s forwards;
+}
+
+.animationMoveUp {
+  position: relative;
+  transform: translateX(150px);
+  animation: moveUp 3s forwards;
+}
+
+@keyframes moveUp {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bg__color__second {
+  background: #ffefed;
+}
+.bg__color__first {
+  background: #f7f3e6;
+}
+.bg__color__third {
+  background: #eee7fa;
+}
+
+.advertising__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.advertising__ttl__li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  margin: 5px;
+}
+
+.advertising__txt__li {
+  padding: 10px 10px 40px 10px;
+}
+
+.advertising__box__li {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  list-style: none;
+}

@@ -1,0 +1,23 @@
+.advertising__box__li {
+  margin: auto;
+  max-width: 875px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.advertising__wrap__img {
+  grid-row: 1/3;
+}
+
+.advertising__ttl__li {
+  grid-column: 2/4;
+}
+
+.advertising__txt__li {
+  grid-column: 2/4;
+}
+
+.advertising__second {
+  display: none;
+}
+
+

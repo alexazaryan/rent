@@ -26,12 +26,35 @@
   margin-top: -100px;
   margin-left: -15px;
   z-index: -1;
+
+  opacity: 0;
+}
+
+.animationFadeIn {
+  transform: translateY(70px);
+  animation: fadeIn 3s forwards;
+  // animation-delay: 1s; //задержка 
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .center__arrow1__img {
   position: absolute;
   right: 0;
   margin-right: 20px;
+}
+
+.center__arrow1__top__svg,
+.center__arrow5__top__svg {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 3s forwards;
+  animation-delay: 1.5s;
 }
 
 .center__arrow2__img {

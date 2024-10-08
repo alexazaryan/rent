@@ -11,14 +11,15 @@
 
 .footer__icon__img {
   max-width: 135px;
-  height: 50px;
   margin: 50px;
-  //   margin-left: 80px;
 }
 
 .footer__icon {
   max-width: 100%;
   width: 100%;
-  height: 100%;
   object-fit: cover;
+}
+
+.footer__icon__store {
+  display: none;
 }

@@ -1,11 +1,27 @@
 .header__wrap {
   max-width: 1650px;
   padding: 1rem;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //
-  z-index: 3;
-  position: relative;
+
+  position: fixed;
+  width: 100%; /* Адаптивная ширина */
+  text-align: center;
+  left: 50%; /* Центрирование по горизонтали */
+  transform: translateX(-50%); /* Центрирование относительно экрана */
+
+  z-index: 2; /* Более низкий z-index */
+
+  background-color: #eef3fa;
+  border-radius: 5px;
+}
+
+.header__color {
+  width: 100%;
+  position: fixed;
+  height: 82px;
+  background-color: #eef3fa;
+  z-index: 5; /* Высший z-index, всегда сверху */
 }

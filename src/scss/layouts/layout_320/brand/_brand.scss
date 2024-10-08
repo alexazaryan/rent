@@ -1,0 +1,66 @@
+.brand__box__li {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.brand__wrap {
+  padding: 65px;
+  text-align: center;
+}
+
+.brand__wrap h4 {
+  font-size: 1.6rem;
+}
+
+.brand__li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid rgb(200, 200, 200);
+  margin: 16px;
+  list-style: none;
+
+  opacity: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Более выраженная тень */
+}
+
+.animationFadeInLeft {
+  animation: fadeInLeft 2s ease forwards; /* Анимация */
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(-150px);
+  }
+  50% {
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); /* Элемент возвращается на свое место */
+  }
+}
+
+.brand__li__first {
+  animation-delay: 0.2s;
+}
+
+.brand__li__second {
+  animation-delay: 0.4s;
+}
+
+.brand__li__third {
+  animation-delay: 0.6s;
+}
+
+.brand__li__fourth {
+  animation-delay: 0.8s;
+}
+
+.brand__li__fifth {
+  animation-delay: 1s;
+}

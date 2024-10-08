@@ -1,4 +1,7 @@
 @import "general";
+
+// header
+
 @import "header/sandwich__menu";
 @import "header/header__wrap";
 @import "header/header__content";
@@ -10,15 +13,37 @@
 @import "header__second/header__second__title";
 @import "header__second/header__second__ul";
 @import "header__second/header__second__search";
+
+// center
+
 @import "center/center";
 @import "center/center__wrap";
 @import "center/center__content";
 @import "center/center__box__img";
+
 @import "popular__categories/_popular__categories";
+@import "popular__categories/popular__categories__wrap";
+@import "popular__categories/popular__ul__wrap__img";
+
+@import "featured__items__wrap/featured__items__wrap";
+@import "featured__items__wrap/box__title__ap";
+@import "featured__items__wrap/card";
+
+@import "advertising__wrap/advertising__wrap";
+@import "advertising__wrap/advertising__first";
+@import "advertising__wrap/advertising__box__li";
+
+//PeopleReviews
+@import "PeopleReviews/ps__wrap";
+@import "PeopleReviews/sp__cards";
+@import "PeopleReviews/star-container";
+
+@import "brand/brand";
 
 // footer
-@import "footer/footer";
+
 @import "footer/footer__container";
 @import "footer/footer__ul__container1";
 @import "footer/footer__ul__container2";
 @import "footer/footer__ul__container3";
+@import "footer/footer__container1__container1";

@@ -6,6 +6,26 @@
   display: flex;
   align-items: center;
   padding: 0.6rem;
+  //
+  cursor: pointer;
+  position: relative; /* Чтобы псевдоэлемент был привязан к элементу списка */
+  overflow: hidden; /* Чтобы линия не выходила за границы элемента */
+}
+
+.header_line::after {
+  content: "";
+  position: absolute; /* Позиционируем относительно родительского элемента */
+  left: 0; /* Линия начинается с левого края */
+  bottom: 0; /* Линия располагается внизу элемента */
+  width: 0; /* Начальное состояние: линия невидима (ширина 0) */
+  height: 4px; /* Толщина линии */
+  border-radius: 6px;
+  background-color: #e63a28; /* Цвет подчеркивания (черный, можно заменить на любой другой) */
+  transition: width 0.6s ease-in-out; /* Плавное увеличение ширины при наведении */
+}
+
+.header_line:hover::after {
+  width: 100%; /* Линия увеличивается до полной ширины элемента */
 }
 
 .header__nav__li_btn {

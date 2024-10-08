@@ -1,0 +1,91 @@
+.sp__cards {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+
+  position: relative;
+}
+
+.sp__card {
+  list-style: none;
+  width: 360px;
+
+  margin: auto;
+  cursor: pointer;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease; /* Плавный переход для трансформации */
+}
+
+.sp__card:hover {
+  transform: scale(1.1); /* Увеличение при наведении */
+}
+
+.sp__wrap__img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 50%;
+
+  position: relative;
+  left: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sp__img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+
+  background-size: cover;
+  object-fit: contain;
+  object-position: center;
+}
+
+.ps__summary {
+  margin-bottom: 50px;
+}
+
+.ps__name {
+  font-weight: bold;
+  margin: 10px 10px 10px 0;
+}
+
+.sp__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// ======== button
+
+.ps__button__prev {
+  cursor: pointer;
+  border: none;
+  border-bottom: 7px solid grey;
+  border-left: 7px solid gray;
+
+  background-color: transparent; /* Прозрачный фон */
+  transform: rotate(45deg);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 3%;
+  bottom: 40%;
+}
+
+.ps__button__next {
+  cursor: pointer;
+  border: none;
+  border-top: 7px solid grey;
+  border-right: 7px solid gray;
+  background-color: transparent; /* Прозрачный фон */
+  transform: rotate(45deg);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 3%;
+  bottom: 40%;
+}

@@ -1,0 +1,30 @@
+html {
+  scroll-timeline: --full-page-scroll block; //имя
+  //   inline - ось X
+  //   block - ось Y
+}
+
+.scrollBarCar {
+  position: fixed;
+  width: 75px;
+
+  bottom: 3px;
+  left: -80px;
+  z-index: 3;
+
+  animation-timing-function: linear; //с постоянной скоростью
+  animation-timeline: --full-page-scroll;
+  animation-name: scrollCar;
+  //   animation-duration: 3s;
+  //   animation-name: scroll();
+}
+
+.scrollBarCar__img {
+  max-width: 100%;
+}
+
+@keyframes scrollCar {
+  100% {
+    left: 100%;
+  }
+}

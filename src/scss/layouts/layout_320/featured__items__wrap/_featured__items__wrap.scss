@@ -1,0 +1,27 @@
+.featured__items__wrap ul li {
+  padding: 1rem;
+}
+
+.box__title__ap {
+  padding: 1rem;
+  list-style: none;
+}
+
+.featured__items__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.featured__btn {
+  border: none;
+  background: #e63a28;
+  padding: 20px 40px;
+  border-radius: 30px;
+  margin-top: 35px;
+
+  font-style: 1.6rem;
+  color: white;
+}

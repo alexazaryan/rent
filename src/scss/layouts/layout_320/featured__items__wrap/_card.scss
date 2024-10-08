@@ -1,0 +1,71 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px 30px;
+  flex-wrap: wrap;
+}
+
+.card__ul {
+  list-style: none;
+  max-width: 360px;
+  border-radius: 10px;
+  background: #f5f7fa;
+
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); /* начальная тень */
+  transition: box-shadow 0.3s ease; /* плавный переход */
+}
+
+.card__ul:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.6); /* более сильная тень при наведении */
+}
+
+.card__photo__wrap {
+  max-width: 360px;
+  width: 360px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.card__photo {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card__grade {
+  display: inline-block;
+  cursor: pointer;
+
+  margin: 0 5px; /* Отступы между звездами */
+}
+
+.card__line {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #dddddd;
+}
+
+.card__price {
+  font-weight: 800;
+  padding: 10px;
+  color: red;
+}
+
+.card__name {
+  display: flex;
+  align-items: center;
+}
+
+.card__name__ing {
+  padding: 10px;
+}

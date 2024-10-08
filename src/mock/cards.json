@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "imgPhoto": "./img/aaaaa.jpg",
+    "title": "Canon 3D - MK III",
+    "description": "Best DSLR Camera available that",
+    "price": "$45/Day",
+    "grade": "./img/starRuiting.svg",
+    "name": "Daniel Thomson",
+    "address": "32 Simple Rd, NY 020103"
+  },
+  {
+    "id": 1,
+    "imgPhoto": "./img/drone.png",
+    "title": "Inspired Drone 2020",
+    "description": "This drone takes your everything that",
+    "price": "$40/Day",
+    "grade": "./img/starRuiting.svg",
+    "name": "Daniel Thomson",
+    "address": "32 Simple Rd, NY 020103"
+  },
+  {
+    "id": 2,
+    "imgPhoto": "./img/audi.png",
+    "title": "Audi A8 Model 2021",
+    "description": "Stylish & comfortable Audi sports car",
+    "grade": "./img/starRuiting.svg",
+    "price": "$50/Day",
+    "name": "Daniel Thomson",
+    "address": "32 Simple Rd, NY 020103"
+  },
+  {
+    "id": 3,
+    "imgPhoto": "./img/macbook.png",
+    "title": "MacBook Pro 2020",
+    "description": "Apple Macbook 17inch, i9 Intel chip",
+    "price": "$52/Day",
+    "grade": "./img/starRuiting.svg",
+    "name": "Daniel Thomson",
+    "address": "32 Simple Rd, NY 020103"
+  },
+  {
+    "id": 4,
+    "imgPhoto": "./img/instant.png",
+    "title": "Instant Stove",
+    "description": "Happy cooking with 6L pressure cooker",
+    "price": "$45/Day",
+    "grade": "./img/starRuiting.svg",
+    "name": "Daniel Thomson",
+    "address": "32 Simple Rd, NY 020103"
+  },
+  {
+    "id": 5,
+    "imgPhoto": "./img/tents.png",
+    "title": "Outwell Double Tent",
+    "description": "Large Tent has 2 bedrooms big enough",
+    "price": "$45/Day",
+    "grade": "./img/starRuiting.svg",
+    "name": "Daniel Thomson",
+    "address": "32 Simple Rd, NY 020103"
+  }
+]

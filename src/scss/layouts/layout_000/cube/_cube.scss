@@ -1,0 +1,63 @@
+.wrapper {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  perspective: 1000px;
+}
+.cube {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+}
+
+.wrapper:hover .cube {
+  transform: rotateY(4turn) rotateX(4turn);
+  transition: 15s 5s;
+}
+//
+//
+//
+.side {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  transition: 2s;
+}
+
+.wrapper:hover .front {
+  background-color: red;
+  transform: translateZ(200px);
+}
+.wrapper:hover .back {
+  background-color: green;
+  transform: rotateY(180deg) translateZ(200px);
+}
+.wrapper:hover .left {
+  background-color: yellow;
+  transform: rotateY(-90deg) translateZ(200px);
+}
+.wrapper:hover .right {
+  background-color: white;
+  transform: rotateY(90deg) translateZ(200px);
+}
+.wrapper:hover .top {
+  background-color: rgb(0, 251, 255);
+  transform: rotateX(90deg) translateZ(200px);
+}
+.wrapper:hover .bottom {
+  background-color: rgb(126, 9, 114);
+  transform: rotateX(-90deg) translateZ(200px);
+}
+.wrapper:hover .side {
+  transition: 5s;
+  background-color: aqua;
+  border: 1px solid white;
+  box-shadow: 0 0 30px aquamarine, 0 0 50px aquamarine, 0 0 70px aquamarine,
+    0 0 90px aquamarine, 0 0 110px aquamarine;
+}

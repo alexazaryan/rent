@@ -1,0 +1,13 @@
+#star-container {
+  display: flex;
+}
+
+.star {
+  margin-right: 5px;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.highlighted {
+  opacity: 1;
+}
